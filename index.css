@@ -52,4 +52,8 @@ h1 {
     cursor: pointer;
 }
 
-
+.posicao[data-tipo="peca"].selecionada {
+    background-color: #f0e68c; /* Cor de destaque (Khaki) */
+    transform: scale(1.1); /* Aumenta um pouco de tamanho */
+    box-shadow: 0 0 15px #f0e68c; /* Adiciona um brilho */
+}
